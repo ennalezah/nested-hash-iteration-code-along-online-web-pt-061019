@@ -15,6 +15,6 @@ contacts = {
 
 puts remove_strawberry(contacts)
 
-puts change_email(contacts,
+puts change_email(contacts, "jon_snow@thewall.com")
 
 #To run this file, in the terminal type: ruby bin/contacts
