@@ -30,3 +30,9 @@ def change_email(contacts, email)
   contacts["Jon Snow"][:email] = email
   contacts
 end 
+
+def add_friends(contacts, friends)
+  contacts.map do |person, details|
+    details[:friends] = friends
+  end
+end
