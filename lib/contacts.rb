@@ -39,9 +39,9 @@ def add_friends(contacts, friends)
 end
 
 def all_flavors(contacts)
-  contacts.map do |person, details|
-    details.map do |attribute, value|
-      if attribute == :
+  contacts.each do |person, details|
+    details.each do |attribute, value|
+      if attribute == :favorite_ice_cream_flavors
     end
   end
 end
