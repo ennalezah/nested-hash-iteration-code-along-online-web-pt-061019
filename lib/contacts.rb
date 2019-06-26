@@ -42,7 +42,7 @@ def all_flavors(contacts)
   contacts.map do |person, details|
     details.map do |attribute, value|
       if attribute == :favorite_ice_cream_flavors
-        value.values.flatten
+        value.flatten
       end
     end
   end
