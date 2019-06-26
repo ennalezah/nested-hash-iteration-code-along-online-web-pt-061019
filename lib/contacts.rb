@@ -40,6 +40,6 @@ end
 
 def all_flavors(contacts)
   contacts.map do |person, details|
-    
+    details.map do ||
   end
 end
