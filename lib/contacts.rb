@@ -42,6 +42,8 @@ def all_flavors(contacts)
   contacts.each do |person, details|
     details.each do |attribute, value|
       if attribute == :favorite_ice_cream_flavors
+        attribute.values.flatten
+      end
     end
   end
 end
