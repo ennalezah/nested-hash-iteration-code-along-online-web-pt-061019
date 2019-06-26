@@ -37,3 +37,9 @@ def add_friends(contacts, friends)
   end
   contacts
 end
+
+def all_flavors(contacts)
+  contacts.map do |person, details|
+    
+  end
+end
