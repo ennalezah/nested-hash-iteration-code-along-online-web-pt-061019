@@ -46,5 +46,5 @@ def all_flavors(contacts)
       end
     end
   end
-  contacts
+  # contacts
 end
