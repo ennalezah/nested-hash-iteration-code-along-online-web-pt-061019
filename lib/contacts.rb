@@ -40,6 +40,8 @@ end
 
 def all_flavors(contacts)
   contacts.map do |person, details|
-    details.map do ||
+    details.map do |attribute, value|
+      if attribute == :
+    end
   end
 end
