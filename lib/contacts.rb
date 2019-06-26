@@ -28,5 +28,5 @@ end
 
 def change_email(contacts, email)
   contacts["Jon Snow"][:email] = email
-  puts contacts
+  contacts
 end 
