@@ -19,4 +19,6 @@ puts change_email(contacts, "jon_snow@thewall.com")
 
 puts add_friends(contacts, "Spongebob")
 
+puts all_flavors(contacts)
+
 #To run this file, in the terminal type: ruby bin/contacts
