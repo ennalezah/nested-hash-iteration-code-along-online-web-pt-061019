@@ -25,3 +25,7 @@ def remove_strawberry(contacts)
     end 
   end
 end
+
+def change_email(contacts, email)
+  contacts["Jon Snow"][:email] = email
+end 
